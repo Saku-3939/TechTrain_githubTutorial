@@ -1,0 +1,52 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class NotesScript : MonoBehaviour
+{
+    public int lineNum;
+    private GameController _gameController;
+    private bool isInLine = false;
+    private KeyCode _lineKey;
+    // Start is called before the first frame update
+    void Start() { 
+    
+        _gameController = GameObject.Find("GameManager").GetComponent<GameController>();
+        _lineKey = GameUtil.GetKeyCodeByLineNum(lineNum);
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        this.transform.position += Vector3.down * 10 * Time.deltaTime;
+        if(this.transform.position.y < -5.0f)
+        {
+            Destroy(this.gameObject);
+        }
+
+        if (isInLine)
+        {
+            CheckInput(_lineKey);
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        isInLine = true;
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        isInLine = false;
+    }
+
+    void CheckInput(KeyCode key)
+    {
+        if (Input.GetKeyDown(key))
+        {
+            _gameController.GoodTimingFuc(lineNum);
+            Destroy(this.gameObject);
+        }
+    }
+}
