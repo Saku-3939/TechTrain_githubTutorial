@@ -20,10 +20,10 @@ MonoBehaviour:
     y: 30
     width: 1368
     height: 780
-  m_MinSize: {x: 713, y: 566}
-  m_MaxSize: {x: 18008, y: 14044}
+  m_MinSize: {x: 711, y: 566}
+  m_MaxSize: {x: 18006, y: 14022}
   vertical: 1
-  controlID: 17732
+  controlID: 162
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -127,10 +127,10 @@ MonoBehaviour:
     y: 0
     width: 1368
     height: 780
-  m_MinSize: {x: 713, y: 566}
-  m_MaxSize: {x: 18008, y: 14044}
+  m_MinSize: {x: 711, y: 566}
+  m_MaxSize: {x: 18006, y: 14022}
   vertical: 0
-  controlID: 17733
+  controlID: 163
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -156,7 +156,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 566}
   m_MaxSize: {x: 4002, y: 12066}
   vertical: 1
-  controlID: 17734
+  controlID: 164
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -220,9 +220,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 728, y: 548, z: 0}
+    m_Target: {x: -4, y: 5, z: 0}
     speed: 2
-    m_Value: {x: 728, y: 548, z: 0}
+    m_Value: {x: -4, y: 5, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -255,9 +255,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 2627.793
+    m_Target: 16.82677
     speed: 2
-    m_Value: 2627.793
+    m_Value: 16.82677
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -328,8 +328,8 @@ MonoBehaviour:
     y: 222
     width: 760
     height: 436
-  m_MinSize: {x: 202, y: 222}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -354,8 +354,8 @@ MonoBehaviour:
     y: 658
     width: 760
     height: 122
-  m_MinSize: {x: 102, y: 122}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -408,10 +408,10 @@ MonoBehaviour:
     y: 0
     width: 275
     height: 780
-  m_MinSize: {x: 234, y: 494}
-  m_MaxSize: {x: 10004, y: 14044}
+  m_MinSize: {x: 234, y: 472}
+  m_MaxSize: {x: 10004, y: 14022}
   vertical: 1
-  controlID: 17688
+  controlID: 91
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -431,8 +431,8 @@ MonoBehaviour:
     y: 0
     width: 275
     height: 342
-  m_MinSize: {x: 204, y: 222}
-  m_MaxSize: {x: 4004, y: 4022}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -469,7 +469,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 48aeffff62d2ffffacd3ffff5ae5ffff22e8ffff6efbffffde2f0000bc340000
+      m_ExpandedIDs: 64f7ffff6efbffff22300000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -512,8 +512,8 @@ MonoBehaviour:
     y: 342
     width: 275
     height: 438
-  m_MinSize: {x: 234, y: 272}
-  m_MaxSize: {x: 10004, y: 10022}
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -564,14 +564,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Resources/Materials
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: "C:\\Users\\sauma\\OneDrive\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\UnityProjects\\Saku_music"
+  m_LastProjectPath: C:\Users\sauma\OneDrive\Documents\GitHub\TechTrain_githubTutorial\Saku_music
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1e2e0000
-    m_LastClickedID: 11806
-    m_ExpandedIDs: 00000000982c00000a2f0000
+    m_SelectedIDs: 422e0000
+    m_LastClickedID: 11842
+    m_ExpandedIDs: 00000000ac2c0000322f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -599,7 +599,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000982c00000a2f0000
+    m_ExpandedIDs: 00000000ac2c0000322f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -624,24 +624,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: b0340000
-    m_LastClickedInstanceID: 13488
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 52f5ffff
+    m_LastClickedInstanceID: -2734
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000da42000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: TouchEffect
+      m_OriginalName: TouchEffect
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 12490
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 14}
     m_CreateAssetUtility:
@@ -674,8 +674,8 @@ MonoBehaviour:
     y: 0
     width: 333
     height: 780
-  m_MinSize: {x: 277, y: 72}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -717,5 +717,5 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: 13488
+  m_LastInspectedObjectInstanceID: -2734
   m_LastVerticalScrollValue: 0
