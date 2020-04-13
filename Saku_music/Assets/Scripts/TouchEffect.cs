@@ -10,7 +10,7 @@ public class TouchEffect : SingletonMonoBehaviour<TouchEffect>
     void Start()
     {
         _touchEffects = new GameObject[5];
-        for(int i = 1; i < 5; i++)
+        for(int i = 0; i < 5; i++)
         {
             _touchEffects[i] = this.transform.GetChild(i).gameObject;
         }
@@ -19,7 +19,7 @@ public class TouchEffect : SingletonMonoBehaviour<TouchEffect>
     // Update is called once per frame
     void Update()
     {
-        for(int i = 1; i < 5; i++)
+        for(int i = 0; i < 5; i++)
         {
             CheckInput(GameUtil.GetKeyCodeByLineNum(i), i); 
         }
